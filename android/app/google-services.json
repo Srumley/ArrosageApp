@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560620311771",
+    "project_id": "arrosageapp-1258",
+    "storage_bucket": "arrosageapp-1258.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560620311771:android:c8a8f02eff17140ff568fe",
+        "android_client_info": {
+          "package_name": "com.example.arrosageapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVBtIs2WdkPCMjXYHYzuuA73Ul_QJFkus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

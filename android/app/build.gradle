@@ -1,0 +1,49 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // Le plugin Flutter Gradle doit être appliqué après les plugins Android et Kotlin.
+    id "dev.flutter.flutter-gradle-plugin"
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+}
+
+android {
+    namespace = "com.example.arrosageapp"
+    compileSdk = 34 // Version de compileSdk pour votre application Flutter
+
+    ndkVersion = flutter.ndkVersion // Assurez-vous que flutter.ndkVersion est défini dans votre configuration Flutter
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.arrosageapp"
+        minSdk = 21 // Version minimale SDK
+        targetSdk = 34 // Version cible SDK
+        versionCode flutter.versionCode // Code de version Flutter
+        versionName flutter.versionName // Nom de version Flutter
+    }
+
+    buildTypes {
+        release {
+            // Ajoutez votre propre configuration de signature pour la build de release
+            signingConfig = signingConfigs.debug // Remplacez par votre configuration de signature de release si disponible
+        }
+    }
+}
+
+flutter {
+    source = "../.." // Chemin vers la source Flutter
+}
+
+// Assurez-vous d'ajouter toutes les dépendances nécessaires pour votre projet Flutter ici
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    // Ajoutez d'autres dépendances nécessaires ici
+}
