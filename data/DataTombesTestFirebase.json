@@ -1,0 +1,182 @@
+{
+    "Châtelaine": {
+        "tombes": {
+            "AHL_2": {
+                "nom_defunt": "AHL",
+                "client": "AHL Christine",
+                "carré": 18.0,
+                "active": true,
+                "position": {
+                    "x": 46.20696240022942,
+                    "y": 6.11735106064678
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": 2.0,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            },
+            "ALESSI_462069": {
+                "nom_defunt": "ALESSI",
+                "client": "DE PERROT SA Alois",
+                "carré": null,
+                "active": true,
+                "position": {
+                    "x": 46.2069888516055,
+                    "y": 6.1174248213918
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": null,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            },
+            "AMADO_8": {
+                "nom_defunt": "AMADO",
+                "client": "AMADO Raymondo",
+                "carré": 5.0,
+                "active": true,
+                "position": {
+                    "x": 46.20703479343896,
+                    "y": 6.11740068151161
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": 8.0,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            },
+            "AMBROSIO_9": {
+                "nom_defunt": "AMBROSIO",
+                "client": "AMBROSIO Rémo",
+                "carré": 6.0,
+                "active": true,
+                "position": {
+                    "x": 46.207005557731215,
+                    "y": 6.11738123549702
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": 9.0,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            },
+            "AMBROSIO_462070": {
+                "nom_defunt": "AMBROSIO",
+                "client": "AMBROSIO Rémo",
+                "carré": 14.0,
+                "active": true,
+                "position": {
+                    "x": 46.207020407616454,
+                    "y": 6.11744493795862
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": null,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            },
+            "CUENNET_14": {
+                "nom_defunt": "CUENNET",
+                "client": "ANTONUCCI  Astrid",
+                "carré": 19.0,
+                "active": false,
+                "position": {
+                    "x": 46.207050107374904,
+                    "y": 6.1174127514517
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": 14.0,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            }
+        }
+    },
+    "Vernier": {
+        "tombes": {
+            "ALESSI_1356": {
+                "nom_defunt": "ALESSI",
+                "client": "ALESSI Lina",
+                "carré": 1.0,
+                "active": true,
+                "position": {
+                    "x": 46.21509715509451,
+                    "y": 6.086990153616872
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -50
+                },
+                "id_tombe": 1356.0,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            }
+        }
+    },
+    "null": {
+        "tombes": {
+            "AMBROSIO_11": {
+                "nom_defunt": "AMBROSIO",
+                "client": "AMMAM Jean",
+                "carré": 1.0,
+                "active": false,
+                "position": {
+                    "x": 46.20704732302324,
+                    "y": 6.11746840728658
+                },
+                "dimensions": {
+                    "longueur": 3,
+                    "largeur": 1,
+                    "rotation": -25
+                },
+                "id_tombe": 11.0,
+                "arrosages": {
+                    "2025-01-01": {
+                        "arrosé": 1
+                    }
+                }
+            }
+        }
+    }
+}

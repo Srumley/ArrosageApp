@@ -1,16 +1,30 @@
-# arrosageapp
+# Arrosage App
 
-Arrosage
+Une application Flutter pour la gestion des cimetières et l'arrosage des tombes.
 
-## Getting Started
+## Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Visualisation des cimetières sur une carte
+- Gestion des clients et des tombes
+- Calendrier pour le suivi des arrosages
+- Interface interactive pour la sélection des tombes
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Assurez-vous d'avoir Flutter installé sur votre machine
+2. Clonez ce dépôt
+3. Exécutez `flutter pub get` pour installer les dépendances
+4. Lancez l'application avec `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dépendances principales
+
+- google_maps_flutter
+- flutter_svg
+- table_calendar
+- excel
+- xml
+- location
+
+## Configuration
+
+L'application nécessite une clé API Google Maps pour fonctionner correctement. Assurez-vous de configurer votre clé API dans les fichiers de configuration appropriés.

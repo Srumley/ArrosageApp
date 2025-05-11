@@ -1,8 +1,9 @@
 {
   "project_info": {
     "project_number": "560620311771",
+    "firebase_url": "https://arrosageapp-1258-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "arrosageapp-1258",
-    "storage_bucket": "arrosageapp-1258.appspot.com"
+    "storage_bucket": "arrosageapp-1258.firebasestorage.app"
   },
   "client": [
     {

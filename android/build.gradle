@@ -9,10 +9,15 @@ buildscript {
         // Ajoutez d'autres dépendances nécessaires pour la construction du projet ici
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.android.tools.build:gradle:8.2.1'
 
     }
 }
+plugins {
 
+    id 'com.google.gms.google-services' version '4.4.2' apply false
+
+}
 allprojects {
     repositories {
         google()
@@ -30,3 +35,6 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+
+
+

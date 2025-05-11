@@ -37,6 +37,8 @@ dependencies:
   latlong2: ^0.8.1 # Ajoute cette ligne
 
 
+  firebase_core: ^3.10.1
+  firebase_database: ^11.3.1
 
   google_maps_flutter: ^2.9.0
   location: ^5.0.3
